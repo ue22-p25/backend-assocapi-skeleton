@@ -24,7 +24,7 @@
 
 ## Détails d'une association
 
-* Endpoint : `/api/association/<int:id>`
+* Endpoint : `/api/association/{int:id}`
 * Méthode : GET
 * Description : Retourne les détails d'une association spécifique par son ID.
 * Réponse :
@@ -41,7 +41,7 @@
 
 ## Détails d'un événement
 
-* Endpoint : `/api/evenement/<int:id>`
+* Endpoint : `/api/evenement/{int:id}`
 * Méthode : GET
 * Description : Retourne les détails d'un événement spécifique par son ID.
 * Réponse :
@@ -50,7 +50,7 @@
 
 ## Liste des événements d'une association
 
-* Endpoint : `/api/association/<int:id>/evenements`
+* Endpoint : `/api/association/{int:id}/evenements`
 * Méthode : GET
 * Description : Retourne une liste des événements organisés par une association spécifique.
 * Réponse :
@@ -58,7 +58,7 @@
 
 ## Liste des associations par type
 
-* Endpoint : `/api/associations/type/<type>`
+* Endpoint : `/api/associations/type/{type}`
 * Méthode : GET
 * Description : Retourne une liste des associations par type (BDE, BDS, BDA, etc.).
 * Réponse :
